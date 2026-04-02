@@ -1,7 +1,7 @@
 {
   "name": "node-job-queue",
   "version": "1.0.0",
-  "description": "Production job queue system — BullMQ, Redis, retries, priorities, concurrency, rate limiting, Bull Board dashboard",
+  "description": "Production job queue system \u2014 BullMQ, Redis, retries, priorities, concurrency, rate limiting, Bull Board dashboard",
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -18,7 +18,7 @@
     "workers",
     "typescript"
   ],
-  "author": "Shai Ali",
+  "author": "Solaris Technologies",
   "license": "MIT",
   "dependencies": {
     "@bull-board/api": "^6.20.6",
