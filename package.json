@@ -1,0 +1,37 @@
+{
+  "name": "node-job-queue",
+  "version": "1.0.0",
+  "description": "Production job queue system — BullMQ, Redis, retries, priorities, concurrency, rate limiting, Bull Board dashboard",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "worker": "tsx watch src/worker.ts",
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/server.js",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "bullmq",
+    "queue",
+    "redis",
+    "job-queue",
+    "workers",
+    "typescript"
+  ],
+  "author": "Shai Ali",
+  "license": "MIT",
+  "dependencies": {
+    "@bull-board/api": "^6.20.6",
+    "@bull-board/express": "^6.20.6",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "bullmq": "^5.71.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "winston": "^3.19.0",
+    "zod": "^4.3.6"
+  }
+}
